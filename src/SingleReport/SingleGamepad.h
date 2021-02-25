@@ -49,7 +49,7 @@ protected:
 };
 extern SingleGamepad_ Gamepad1;
 extern SingleGamepad_ Gamepad2;
-extern SingleGamepad_ Gamepad3;
-extern SingleGamepad_ Gamepad4;
+// extern SingleGamepad_ Gamepad3;
+// extern SingleGamepad_ Gamepad4;
 
 
