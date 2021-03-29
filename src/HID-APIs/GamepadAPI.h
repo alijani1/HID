@@ -44,7 +44,7 @@ typedef union ATTRIBUTE_PACKED {
 	uint8_t whole8[0];
 	uint16_t whole16[0];
 	uint32_t whole32[0];
-	uint16_t buttons;
+	uint32_t buttons;
 
 	struct ATTRIBUTE_PACKED {
 		uint8_t button1 : 1;
@@ -108,7 +108,7 @@ public:
 	inline void release(uint8_t b);
 	inline void releaseAll(void);
 
-	inline void buttons(uint16_t b);
+	inline void buttons(uint32_t b);
 	inline void xAxis(int16_t a);
 	inline void yAxis(int16_t a);
 	inline void zAxis(int8_t a);
