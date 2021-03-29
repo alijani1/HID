@@ -85,7 +85,7 @@ typedef union ATTRIBUTE_PACKED {
 
 		int16_t	xAxis;
 		int16_t	yAxis;
-
+/*
 		int16_t	rxAxis;
 		int16_t	ryAxis;
 
@@ -94,6 +94,7 @@ typedef union ATTRIBUTE_PACKED {
 
 		uint8_t	dPad1 : 4;
 		uint8_t	dPad2 : 4;
+		*/
 	};
 } HID_GamepadReport_Data_t;
 
