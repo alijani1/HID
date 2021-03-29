@@ -43,7 +43,7 @@ typedef union ATTRIBUTE_PACKED {
 	// 32 Buttons, 6 Axis, 2 D-Pads
 	uint8_t whole8[0];
 	uint16_t whole16[0];
-	// uint32_t whole32[0];
+	uint32_t whole32[0];
 	uint32_t buttons;
 
 	struct ATTRIBUTE_PACKED {
@@ -64,7 +64,7 @@ typedef union ATTRIBUTE_PACKED {
 		uint8_t button14 : 1;
 		uint8_t button15 : 1;
 		uint8_t button16 : 1;
-/*
+
 		uint8_t button17 : 1;
 		uint8_t button18 : 1;
 		uint8_t button19 : 1;
@@ -81,7 +81,7 @@ typedef union ATTRIBUTE_PACKED {
 		uint8_t button29 : 1;
 		uint8_t button30 : 1;
 		uint8_t button31 : 1;
-		uint8_t button32 : 1;  */
+		uint8_t button32 : 1;  
 
 		int16_t	xAxis;
 		int16_t	yAxis;
