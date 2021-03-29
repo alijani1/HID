@@ -48,7 +48,6 @@ static const uint8_t _hidReportDescriptorGamepad[] PROGMEM = {
 	0x95, 0x04,							/*     REPORT_COUNT (2) */
 	0x81, 0x02,							/*     INPUT (Data,Var,Abs) */
 	0xc0,								/*   END_COLLECTION */
-	/* 2 Hat Switches */
 	0xc0								/* END_COLLECTION */
 };
 

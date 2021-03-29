@@ -72,7 +72,7 @@ void GamepadAPI::yAxis(int16_t a){
 	_report.yAxis = a; 
 }
 
-
+/*
 void GamepadAPI::zAxis(int8_t a){ 
 	_report.zAxis = a; 
 }
@@ -101,4 +101,5 @@ void GamepadAPI::dPad1(int8_t d){
 void GamepadAPI::dPad2(int8_t d){ 
 	_report.dPad2 = d; 
 }
+*/
 
