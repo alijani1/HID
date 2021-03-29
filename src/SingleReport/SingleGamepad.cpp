@@ -37,7 +37,7 @@ static const uint8_t _hidReportDescriptorGamepad[] PROGMEM = {
 	0x75, 0x01,							/*   REPORT_SIZE (1) */
 	0x95, 0x10,							/*   REPORT_COUNT (16) */
 	0x81, 0x02,							/*   INPUT (Data,Var,Abs) */
-	/* 4 16bit Axis */
+	/* 2 16bit Axis */
 	0x05, 0x01,							/*   USAGE_PAGE (Generic Desktop) */
 	0xa1, 0x00,							/*   COLLECTION (Physical) */
 	0x09, 0x30,							/*     USAGE (X) */
